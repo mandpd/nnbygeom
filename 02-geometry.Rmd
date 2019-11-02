@@ -1,0 +1,12 @@
+# Geometry
+
+There is a heirarchy of planar transformations that we may need to apply to the feature space. They are
+
+**Projective** - a square can be transformed into any more general quadrilateral where no 3 points are collinear
+
+**Affine** - equivalent to the composed effects of translation, rotation, isotropic scaling and shear.
+
+**Similarity**
+
+**Euclidean** - only rotations and translations are allowed
+
