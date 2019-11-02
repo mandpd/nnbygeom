@@ -1,0 +1,29 @@
+--- 
+title: "Learning Neural Networks from Geometrical Considerations"
+author: "Mark J Smith"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: mandpd/ggbygeom
+description: "Learning Neural Networks from Geometrical Considerations"
+---
+
+# Overview
+
+This project is an exploration of how neural networks work by examining their effect on the feature space of the data they are intended to learn from.
+
+I'm writing it to discover more about the [convnetjs](https://github.com/karpathy/convnetjs) package which provides a neural net implementation in javascript and the graphics package D3.
+
+I believe that visualizing how neural nets and their descendents CNNs and RNNs are doing what they do is vital to optimizing the parameters that optimize them.
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
